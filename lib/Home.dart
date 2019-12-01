@@ -5,10 +5,12 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home 1'),
+        title: Text('My Home Page'),
       ),
-      body: Center(
-        child: Text('Home'),
+      body: Column(
+        children:[
+          Text('Home')
+        ],
       ),
     );
   }
